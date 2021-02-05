@@ -225,6 +225,16 @@ figure{
 }
 
 /*Footer MediaQ*/
+  footer{
+align-items: center;
+     height: 20em;   
+}
+
+footer h2{
+    font-size: 2.5em;
+       margin: 0.5em 0.5em 0 0.5em ;
+}  
+    
 footer a{
           font-size: 1.1em;
              margin: 0.5em 0.5em;
