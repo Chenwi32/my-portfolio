@@ -151,6 +151,7 @@ footer a:hover{
 }
 
  .contact{
+   justify-content: center;
     flex-direction: column;
        align-items: center;
            display: flex;
@@ -256,7 +257,7 @@ nav ul a{
 
 }
 
-@media (min-width: 450px) and (max-width: 880px){
+@media (min-width: 560px) and (max-width: 880px){
 
     /*Header MediaQ*/
        header{ 
