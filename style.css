@@ -330,10 +330,13 @@ align-items: center;
 }
 
    footer a{
-             font-size: 1.2em;
-                margin: 0.5em 01.5em;
+             font-size: 1.1em;
+                margin: 0.5em 0.9em;
                padding: .9em;
    }
+    footer a:hover{
+               padding: 1em;
+   }   
 
  .contact{    
        flex-direction: row;
