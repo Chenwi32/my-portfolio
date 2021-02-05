@@ -32,12 +32,13 @@ header p{
 
 .overlay{
         background-position: center; 
-        background-repeat: no-repeat;  
-          background-size: cover;
-         height: 100%;
-         width: 100%;position: absolute;
-         z-index: -1;
-         filter: brightness(40%);
+          background-repeat: no-repeat;  
+            background-size: cover;
+                   position: absolute;
+                     height: 100%;
+                      width: 100%;
+                    z-index: -1;
+                     filter: brightness(40%);
 }
 
 /*Navbar*/
@@ -56,14 +57,14 @@ nav{
 
 nav img{
     padding: 0.3em;
-    width: 20%;
+      width: 20%;
 }
 
 nav ul{
-    list-style-type: none;  
+    list-style-type: none; 
+        margin-left: -4.1em;
+      padding-right: 0.3em;
             display: inline-flex;
-            margin-left: -4.1em;
-            padding-right: 0.3em;
 }
 
 nav ul a{
@@ -77,8 +78,8 @@ nav ul a{
 
 nav ul a:hover{
     border-color: rgb(226, 230, 233);
+    border-width: 0.1rem;
           border: solid;
-          border-width: 0.1rem;
 }
 
 /*Portfolio*/
@@ -138,23 +139,24 @@ hr{
 footer a{
     text-decoration: none;
           font-size: 1.1em;
-        transition: 0.5s;    
+         transition: 0.5s;    
             padding: 0.2em;
              margin: 0.2em;
               color: rgb(240, 215, 215);
 }
 
 footer a:hover{
-        color: rgb(224, 195, 98);
-        padding-top: 0.7em;
+    padding-bottom: 0.7em;
+          color: rgb(224, 195, 98);
 }
 
 
 .contact{
-    display: flex;
+    
     flex-direction: column;
-   width: 80%;
-    margin: auto;
+           display: flex;
+             width: 80%;
+            margin: auto;
 } 
 footer h2{
     margin: 0.5em 0.5em 0 0.5em ;
@@ -183,7 +185,7 @@ footer h2{
 
      nav img{
         padding: 0.3em;
-        width: auto;
+          width: auto;
     }
  /*Portfolio MediaQ*/
 
@@ -208,9 +210,9 @@ figure{
     background-color: rgb(22, 22, 20);
            font-size: 1.1em;
              padding: 0.5em 0 .5em;
-             margin: 0.5rem 0.5rem 0.5rem 0;
-             height: 88%;
-             text-align: center;
+              margin: 0.5rem 0.5rem 0.5rem 0;
+              height: 88%;
+          text-align: center;
 }
 
 
@@ -225,12 +227,12 @@ figure{
 footer a{
           font-size: 1.1em;
              margin: 0.5em 0.5em;
-             padding: 0.5em;
+            padding: 0.5em;
 }
 .contact{
     flex-direction: row;
-    width: 60%;
-    margin: auto;
+            margin: auto;
+             width: 60%;
 }
 
 /*Navbar MediaQ*/
@@ -263,7 +265,7 @@ nav ul a{
 
         nav img{
             padding: 0.3em;
-            width: auto;
+              width: auto;
         }
 
     /*Portfolio MediaQ*/
@@ -289,9 +291,9 @@ nav ul a{
     background-color: rgb(22, 22, 20);
            font-size: 0.9em;
              padding: 0.5em 0.2em .5em;
-             margin: 0.5rem 0.5rem 0.5rem 0;
-             height: 85%;
-             text-align: center;
+              margin: 0.5rem 0.5rem 0.5rem 0;
+              height: 85%;
+          text-align: center;
 }
 .portfolio img{
     border-radius: 2px;
@@ -312,11 +314,11 @@ nav ul a{
    footer a{
              font-size: 1.2em;
                 margin: 0.5em 0.5em;
-                padding: 0.5em;
+               padding: 0.5em;
    }
    .contact{
        flex-direction: row;
-    flex-wrap: wrap;
+            flex-wrap: wrap;
    }
    
    /*Navbar MediaQ*/
