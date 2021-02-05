@@ -139,7 +139,7 @@ hr{
 footer a{
     text-decoration: none;
           font-size: 1.1em;
-         transition: 0.5s;    
+         transition: 1s;    
             padding: 0.2em;
              margin: 0.2em;
               color: rgb(240, 215, 215);
