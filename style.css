@@ -257,7 +257,7 @@ nav ul a{
 
 }
 
-@media (min-width: 560px) and (max-width: 880px){
+@media (min-width: 450px) and (max-width: 880px){
 
     /*Header MediaQ*/
        header{ 
